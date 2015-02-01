@@ -1,33 +1,38 @@
 # Pixelant Layout#
 
-Hi My name is Silvia and I'm a Junior Front End Developer.
-In this document I want explain to you how I organize my work and what type of decisione i made during the developement.
+Hi, My name is Silvia and I'm a Junior Front End Developer.
+In this document I want to explain to you how I organise my work and what type of decisions I make during the developement process.
 
-## What tecnologies I used?
+## What tecnologies do I use?
 
-
-* HTML 5
-* CSS 3
-* Bootstrap
+* HTML5
+* CSS3
+* TwitterBootstrap
 * jQuery
-* Less
-* Google font
-* Font face (icons)
+* LessCSS
+* Google Fonts
 * GitHub
 
 
-## How I organize my work?
+## How do I organise my work?
 
-As metioned on the pervious list I decide to organize my work using GitHub.
-In this way I optaion different vatage:
+I use GitHub for two reasons:
 
-1. I planned my work with task
-2. I could have always controll the project
-3. I can show to you my work step by step in the develop branch or the final release in the master branch. You can choose!
+1. to split my work into tasks before to start coding
+2. to keep trace of my activities by linkng my commits to tasks and branches so the project is open to collaboration
 
-With SourceTree I managed all my local work but I prefered to merge every single branch with a puòò request in GitHub.
-I also create a custom label to indicate the precise issues I was working. 
-Every time I found a bug or something could be better I opened a new issue.
+I starte by writing a list of tasks in order to have the overall understanding of the project. Whenever I find a bug, or something that I can improve, I fill a new issue so I don't forget.
+
+This way every commit is a little step forward, and I can work more efficiently. Task after task.
+
+I also create a custom label `wip` that I use to pinpoint my current task. It's very useful for team working but also as self reminder when I start back in the morning.
+
+I do my best to implement GitFlow to organise my job. I produce a new feature branch for each task and I use GitHub to create pull requests to the develop branch. 
+
+Eventually I create a release in the master branch with the version number as tag label. This release is available as a public GitHub Pages project and as downloadable archive:
+
+- [project demo - fix the url!](https://github.com/cibily/Pixelant)
+- [download current stable release - fix the url!](https://github.com/cibily/Pixelant)
 
 ## Important elements
 
