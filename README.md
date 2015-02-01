@@ -39,7 +39,7 @@ Eventually I create a release in the master branch with the version number as ta
 I try to describe here some tecnical decision that I made. 
 
 
-* Top Menu Icon
+### Top Menu Icon
 
 With Bootstrap you can use the Glyphicons but for this layout I used a set on custom Icon. I used Font Face on the custom.css
 In the same file I import all the css rules in order to have only one file.
@@ -60,7 +60,7 @@ In the same file I import all the css rules in order to have only one file.
 
 
 
-* Slide show: 
+### Slide show: 
 
 I created a slideshow with an over background that show you some contents. The contents were not resposive and I decide to use a bootstrap class to hide some element on small and extra small device.
 
@@ -77,7 +77,9 @@ On mediuam and large all the three elements
 ![Alt text](./img_readme/slideshow-lg.jpg "slideshow-lg")
 
 
-* Control Slideshow
+
+
+### Control Slideshow
 
 The slideshow don't implement a "next" or "prev" icon in the slideshow.
 The user can know how many slides exsist and where is it now thank to the rounded controll over the slide show.
